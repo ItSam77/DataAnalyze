@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 
 
  # Memasukan day.csv dan hour.csv pada filenya
-daydf = pd.read_csv('c:/Users/Swift GO 14/Documents/SubmissionDicoding/Dashboard/day.csv')
+daydf = pd.read_csv('day.csv')
 daydf['dteday'] = pd.to_datetime(daydf['dteday']) 
 
-hourdf = pd.read_csv('c:/Users/Swift GO 14/Documents/SubmissionDicoding/Dashboard/hour.csv')
+hourdf = pd.read_csv('hour.csv')
 hourdf['dteday'] = pd.to_datetime(hourdf['dteday']) 
 
 
