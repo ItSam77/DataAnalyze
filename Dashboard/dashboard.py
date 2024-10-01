@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
  # Memasukan day.csv dan hour.csv pada filenya
-daydf = pd.read_csv('day.csv')
+daydf = pd.read_csv('DataAnalyze/Dashboard/day.csv')
 daydf['dteday'] = pd.to_datetime(daydf['dteday']) 
 
 hourdf = pd.read_csv('hour.csv')
